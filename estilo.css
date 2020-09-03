@@ -1,0 +1,119 @@
+body{
+	background: #F3F2E5 url('imagens/fundo.jpg') fixed;
+	font: 16px Aria, Helvetica, sans-serif;
+}
+
+
+a{
+	color: #3C3C3B;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
+}
+
+
+h1{
+	color: #DB4DBC;
+	font-size: 1.5em;
+}
+
+#rodape{
+	text-align: center;
+	font-size: 20px;
+	margin-top:  -8px;
+	height: 200px;
+	color: white;
+	background: black;
+
+}
+
+
+#conteudo{
+	background: #F6F6F3;
+	padding: 20px;
+}
+
+
+
+#principal{
+	
+	width: 900px;
+	padding: 10px;
+	position: relative;
+	margin: 0 auto;
+
+}
+
+
+
+
+
+.centralizar{
+	
+	
+	padding: 60px;
+}
+
+.img-campanha{
+	border: 15px  solid #D3D3C6;
+}
+
+
+#menu{
+	height: 40px;
+	background: #E5E5E3;
+	position: relative;
+
+
+}
+
+ul{
+	margin: 0px;
+	list-style: none;
+
+}
+
+ul li{
+
+	line-height: 32px;
+	float: left;
+	display: inline-block;
+	margin-left: 0;
+	margin-right: 0;
+
+}
+
+
+ul li.active, ul li.active a{
+	background: pink;
+	color: white;
+}
+
+ul li.divisor, ul li.divisor:hover{
+	background: none;
+	margin: 0;
+	padding-top: 2px;	
+}
+
+ul li a{
+	display: inline-block;
+	padding-right: 10px; 
+	padding-left: 10px;
+}
+
+
+ul li a:link{
+	background: none;
+	color: #000;
+} 
+
+ul li a:hover{
+ 	color: white;
+ 	background: pink;
+
+  }
+
+  ul li a:active{
+  	color: #000;
+  	background: #F4B6D2;
+  }
